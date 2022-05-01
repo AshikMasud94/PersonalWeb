@@ -14,6 +14,7 @@
 }
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -29,8 +30,7 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  padding: 25px 0;
   color: #66BFBF;
   font-family: 'Merriweather', serif;
   font-weight: normal;
@@ -49,18 +49,19 @@ h4 {
 
 .topCloud {
   position: absolute;
-  right: 450px;
-  top: 40px;
+  right: 250px;
+  top: 300px;
 }
 
 .bottomCloud {
   position: absolute;
   top: 100px;
-  left: 550px;
+  left: 250px;
 }
 
 .myImg {
   margin-top: 20px;
+  margin-right: 20px;
   width: 125px;
   height: 125px;
 }
@@ -68,7 +69,19 @@ h4 {
 .binaryImg {
   width: 20%;
   height: 20%;
+}
 
+.helloHeader {
+  width: 45%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.learnerLinks {
+  line-height: 2;
 }
 
 table {
@@ -88,20 +101,23 @@ hr {
   border-top-style: dotted;
   border-color: #EED6C4;
   border-width: 5px;
-  width: 55%;
+  width: 25%;
 }
 
 .computerImg {
   width: 12.5%;
   height: 12.5%;
   float: left;
-  margin-left: 30%;
+  margin-top: 5px;
+  margin-left: 35%;
   border-radius: 100%;
   margin-bottom: 5%;
 }
 
 .aboutMe {
   clear: left;
+  width: 45%;
+  margin: auto;
 }
 
 .aboutMeHeader {
@@ -113,6 +129,13 @@ hr {
 .footer-link {
   height: 5%;
   width: 5%;
+  color: #557B83;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
 }
 
 .myContact {
@@ -142,7 +165,7 @@ hr {
   text-decoration: none;
 }
 
-.submitBttn{
+.submitBttn {
   background: #90caf0;
   background: -moz-linear-gradient(center top, #11cdd4 5%, #00446e 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #00446e));
@@ -170,4 +193,10 @@ hr {
   background: -o-linear-gradient(center top, #EDE6DB 5%, #A0BCC2 100%);
   background: -webkit-linear-gradient(center top, #EDE6DB 5%, #A0BCC2 100%);
   text-decoration: none;
+}
+
+.Copyright{
+  color: #EAF6F6;
+  font-size: .50rem;
+  padding: 25px 0;
 }
