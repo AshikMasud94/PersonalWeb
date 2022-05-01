@@ -1,0 +1,68 @@
+.topDiv {
+  background-color: #EDE6DB;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleDiv {
+}
+
+
+.bottomDiv {
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 55px;
+  margin-top: 0;
+  font-family: 'Water Brush', cursive;
+}
+
+h2 {
+
+  margin-top: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.topCloud {
+  position: absolute;
+  right: 450px;
+  top: 40px;
+}
+
+.bottomCloud {
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+.myImg{
+  margin-top: 20px;
+  width: 125px;
+  height: 125px;
+}
+.binaryImg{
+  width: 200px;
+  height: 200px;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EED6C4;
+  border-width: 5px;
+  width: 55%;
+}
