@@ -82,6 +82,7 @@ p {
 
 .learnerLinks {
   line-height: 2;
+  text-decoration: none;
 }
 
 table {
